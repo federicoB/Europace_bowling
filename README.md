@@ -18,7 +18,12 @@ Positive
 
 Potentials we see
 - no readme
-- wrong logic
+- wrong logic:
+    - Is the frame a spare the points are 10 + the next throw. 
+      Is the frame a strike the points are: 0 + the next 2 throws (not the next 2 frames).
+      For example. 8:2, X, 6:4, 5 = 20+20+15 +5=60 and not 20+25+15+5=65. 
+      Besides in the last frame you can throw 3 strikes and get 300 points. 
+      Maximum points in bowling is 300.
 - Methods snake_case instead of camelcase as usual in Java
 - model classes
 - a lot of logic
